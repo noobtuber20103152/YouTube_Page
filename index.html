@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.js">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <i onclick="clear()" class="fas fa-bars"></i>
+            <div class="ytlogo">
+                <i class="fab fa-youtube i"></i>
+                <h4>YouTube</h4>
+            </div>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Search" name="" id="input">
+            <i id="inputclick" class="fas fa-search"></i>
+        </div>
+        <div class="menu">
+            <div onclick="visible()" class="icon">
+
+                <i class="fas fa-ellipsis-h"></i>
+
+            </div>
+            <div onclick="jao()" class="btn">
+                <a>SIGN IN</a>
+            </div>
+        </div>
+    </nav>
+    <div class="info" id="info">
+        <a href="" class="item">
+            <i class="fab fa-themeisle"></i>
+            <h6>Appearance: Device theme</h6>
+           
+        </a>
+        <a href="" class="item">
+            <i class="fas fa-language"></i>
+            <h6>language</h6>
+      
+        </a>
+        <a href="" class="item">
+            <i class="far fa-compass"></i>
+            <h6>Location-India</h6>
+           
+        </a>
+        <a href="" class="item">
+            <i class="fas fa-cogs"></i>
+            <h6>Settings</h6>
+            
+        </a>
+        <a href="" class="item">
+            <i class="fas fa-database"></i>
+            <h6>Your data in YouTube</h6>
+            
+        </a>
+       
+        <a href="" class="item">
+            <i class="fas fa-question"></i>
+            <h6>Help</h6>
+            
+        </a>
+        <a href="" class="item">
+            <i class="fas fa-comment-dots"></i>
+            <h6>Send Feedback</h6>
+            
+        </a>
+        <a href="" class="item">
+            <i class="far fa-keyboard"></i>
+            <h6>Keyboard shortcuts</h6>
+        </a>    
+    </div>
+    <div class="body">
+        <div class="left">
+            <div class="item">
+                <a href="">
+                    <i class="fas fa-home"></i>
+                    <h5>Home</h5>
+                </a>
+                <a href="">
+                    <i class="fas fa-search"></i>
+                    <h5>Explore</h5>
+                </a>
+                <a href="">
+                    <i class="far fa-address-card"></i>
+                    <h5>Subscription</h5>
+                </a>
+            </div>
+            <div class="item">
+                <a href="">
+                    <i class="fas fa-book-reader"></i>
+                    <h5>Library</h5>
+                </a>
+                <a href="">
+                    <i class="fas fa-history"></i>
+                    <h5>History</h5>
+                </a>
+            </div>
+
+            <div  class="sign">
+                <p>Sign in to like videos, comment, and subscribe.</p>
+                <a onclick="jao()">SIGN IN</a>
+            </div>
+            <div class="item">
+                <h4>BEST OF YOUTUBE</h4>
+                <a href="">
+                    <i class="fas fa-music"></i>
+                    <h5>Music</h5>
+                </a>
+                <a href="">
+                    <i class="fas fa-volleyball-ball"></i>
+                    <h5>Sports</h5>
+                </a>
+                <a href="">
+                    <i class="fas fa-headset"></i>
+                    <h5>Gaming</h5>
+                </a>
+                <a href="">
+                    <i class="fas fa-film"></i>
+                    <h5>Movies</h5>
+                </a>
+                <a href="">
+                    <i class="far fa-newspaper"></i>
+                    <h5>News</h5>
+                </a>
+                <a href="">
+                    <i class="far fa-life-ring"></i>
+                    <h5>Live</h5>
+                </a>
+                <a href="">
+                    <i class="fas fa-vest-patches"></i>
+                    <h5>Fashion & Beauty</h5>
+                </a>
+
+                <a href="">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <h5>Learning</h5>
+                </a>
+                <a href="">
+                    <i class="fab fa-youtube"></i>
+                    <h5>Spotlight</h5>
+                </a>
+                <a href="">
+                    <i class="fas fa-angle-double-up"></i>
+                    <h5>369 video</h5>
+                </a>
+            </div>
+            <div class="item">
+                <a href="">
+                    <i class="fas fa-plus"></i>
+                    <h5>Browser channels</h5>
+                </a>
+            </div>
+            <div class="item">
+                <h4>MORE FROM YOUTUBE</h4>
+                <a href="">
+                    <i class="fab fa-youtube"></i>
+                    <h5>YouTube Premium</h5>
+                </a>
+
+                <a href="">
+                    <i class="fas fa-headset"></i>
+                    <h5>Live</h5>
+                </a>
+            </div>
+            <div class="item">
+                <a href="">
+                    <i class="fas fa-cog"></i>
+                    <h5>Settings</h5>
+                </a>
+
+                <a href="">
+                    <i class="far fa-flag"></i>
+                    <h5>Report</h5>
+                </a>
+                <a href="">
+                    <i class="fas fa-hands-helping"></i>
+                    <h5>Help</h5>
+                </a>
+                <a href="">
+                    <i class="fas fa-comments"></i>
+                    <h5>Send feedback</h5>
+                </a>
+            </div>
+            <div class="item">
+                <a href="" class="copy">
+                    <p>About Press Copyright Contact us Creators Advertise Developers</p>
+                    <p>Terms Privacy Policy & SafetyHow YouTube worksTest new features</p>
+
+                    <h6>© 2021 Google LLC</h6>
+                </a>
+            </div>
+        </div>
+        <div class="right">
+           <div class="right1 right">
+            <a href="https://www.youtube.com/watch?v=pcwWD1oE1Fw" class="video">
+                <img src="./video 1.jpg" alt="">
+                <div class="dtl">
+                    <div class="img">
+                        <img src="./video 1 channel.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h5>This is Worse than Instagram Reels and Tiktok</h5>
+                        <p class="chl">Trggered Insaan</p>
+                        <p class="view">14M views 9 months ago</p>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=-9tEqVg1PYQ" class="video">
+                <img src="./video 2.webp" alt="">
+                <div class="dtl">
+                    <div class="img">
+                        <img src="./video 2 channel.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h5>Eating habits in classroom</h5>
+                        <p class="chl">ashish chanchlani vines</p>
+                        <p class="view">28M views 4 year ago</p>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=j-uG0r0TT8k" class="video">
+                <img src="./video 3.webp" alt="">
+                <div class="dtl">
+                    <div class="img">
+                        <img src="video 3 channel.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h5>शनि ग्रह का चांद हमारा भविष्य होगा |</h5>
+                        <p class="chl">
+                            Spy Pedia</p>
+                        <p class="view">1.6M views 1 month ago</p>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=1x2K9Rie2Vg" class="video">
+                <img src="./video 4.webp" alt="">
+                <div class="dtl">
+                    <div class="img">
+                        <img src="video 4 channel.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h5>INDIAN KID MEETS TOM CRUISE</h5>
+                        <p class="chl">CarryMinati</p>
+                        <p class="view">29M views 3 year ago</p>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=cjUc2ih8FMs" class="video">
+                <img src="./video 5.webp" alt="">
+                <div class="dtl">
+                    <div class="img">
+                        <img src="video 5 channel.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h5>Ye Babhurao ka Style Hai - Best Of Babu Bhaiya | Paresh Rawal</h5>
+                        <p class="chl">Amazon Prime Video India</p>
+                        <p class="view">3.6M views 6 year ago</p>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=MxVryIw4Wdc" class="video">
+                <img src="./video 6.webp" alt="">
+                <div class="dtl">
+                    <div class="img">
+                        <img src="./video 6 channel.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h5>The Greatest Rapper of All Time!!</h5>
+                        <p class="chl">Triggered Insaan</p>
+                        <p class="view">7.7M views 1 year ago</p>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=ZuvV7tNko00" class="video">
+                <img src="./video 7.webp" alt="">
+                <div class="dtl">
+                    <div class="img">
+                        <img src="./video 7 channel.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h5>69 SUBSCRIBERS SPECIAL QnA</h5>
+                        <p class="chl">CarryMinati</p>
+                        <p class="view">12M views 5 year ago</p>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=yHvX8UIc59M" class="video">
+                <img src="./video 8.webp" alt="">
+                <div class="dtl">
+                    <div class="img">
+                        <img src="./video 8 channel.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h5>YOU | Season 3 Date Announcement | Netflix India</h5>
+                        <p class="chl">TNetflix India</p>
+                        <p class="view">17k views 1 hour ago</p>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=xhsIMUmd4sY" class="video">
+                <img src="./video 9.webp" alt="">
+                <div class="dtl">
+                    <div class="img">
+                        <img src="./video 9 channel.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h5>1959 | Round2Hell | R2H</h5>
+                        <p class="chl">Round2hell</p>
+                        <p class="view">1M views 1 hour ago</p>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=yFm8MRGGZBs" class="video">
+                <img src="./video 10.webp" alt="">
+                <div class="dtl">
+                    <div class="img">
+                        <img src="./video 10 channel.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h5>Pardeep Narwal's 8 point raid</h5>
+                        <p class="chl">Patna Pirates</p>
+                        <p class="view">600K views 1 year ago</p>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=btpgJ25aETk" class="video">
+                <img src="./video 11.webp" alt="">
+                <div class="dtl">
+                    <div class="img">
+                        <img src="./video 11 channel.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h5>Why not print UNLIMITED money? | FREE MONEY FOR EVERYBODY</h5>
+                        <p class="chl">Abhi and Niyu</p>
+                        <p class="view">630K views 9 months ago</p>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=qGmP0VDATkc" class="video">
+                <img src="./video 12.webp" alt="">
+                <div class="dtl">
+                    <div class="img">
+                        <img src="./video 12 channel.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h5>Copying my BROTHER All Day @Triggered Insaan</h5>
+                        <p class="chl">Wanderers Hub</p>
+                        <p class="view">5.4M views 2 months ago</p>
+                    </div>
+                </div>
+            </a>
+
+           </div>
+           <div class="right1 right">
+            <a href="https://www.youtube.com/watch?v=pcwWD1oE1Fw" class="video">
+                <img src="./video 1.jpg" alt="">
+                <div class="dtl">
+                    <div class="img">
+                        <img src="./video 1 channel.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h5>This is Worse than Instagram Reels and Tiktok</h5>
+                        <p class="chl">Trggered Insaan</p>
+                        <p class="view">14M views 9 months ago</p>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=-9tEqVg1PYQ" class="video">
+                <img src="./video 2.webp" alt="">
+                <div class="dtl">
+                    <div class="img">
+                        <img src="./video 2 channel.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h5>Eating habits in classroom</h5>
+                        <p class="chl">ashish chanchlani vines</p>
+                        <p class="view">28M views 4 year ago</p>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=j-uG0r0TT8k" class="video">
+                <img src="./video 3.webp" alt="">
+                <div class="dtl">
+                    <div class="img">
+                        <img src="video 3 channel.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h5>शनि ग्रह का चांद हमारा भविष्य होगा |</h5>
+                        <p class="chl">
+                            Spy Pedia</p>
+                        <p class="view">1.6M views 1 month ago</p>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=1x2K9Rie2Vg" class="video">
+                <img src="./video 4.webp" alt="">
+                <div class="dtl">
+                    <div class="img">
+                        <img src="video 4 channel.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h5>INDIAN KID MEETS TOM CRUISE</h5>
+                        <p class="chl">CarryMinati</p>
+                        <p class="view">29M views 3 year ago</p>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=cjUc2ih8FMs" class="video">
+                <img src="./video 5.webp" alt="">
+                <div class="dtl">
+                    <div class="img">
+                        <img src="video 5 channel.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h5>Ye Babhurao ka Style Hai - Best Of Babu Bhaiya | Paresh Rawal</h5>
+                        <p class="chl">Amazon Prime Video India</p>
+                        <p class="view">3.6M views 6 year ago</p>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=MxVryIw4Wdc" class="video">
+                <img src="./video 6.webp" alt="">
+                <div class="dtl">
+                    <div class="img">
+                        <img src="./video 6 channel.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h5>The Greatest Rapper of All Time!!</h5>
+                        <p class="chl">Triggered Insaan</p>
+                        <p class="view">7.7M views 1 year ago</p>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=ZuvV7tNko00" class="video">
+                <img src="./video 7.webp" alt="">
+                <div class="dtl">
+                    <div class="img">
+                        <img src="./video 7 channel.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h5>69 SUBSCRIBERS SPECIAL QnA</h5>
+                        <p class="chl">CarryMinati</p>
+                        <p class="view">12M views 5 year ago</p>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=yHvX8UIc59M" class="video">
+                <img src="./video 8.webp" alt="">
+                <div class="dtl">
+                    <div class="img">
+                        <img src="./video 8 channel.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h5>YOU | Season 3 Date Announcement | Netflix India</h5>
+                        <p class="chl">TNetflix India</p>
+                        <p class="view">17k views 1 hour ago</p>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=xhsIMUmd4sY" class="video">
+                <img src="./video 9.webp" alt="">
+                <div class="dtl">
+                    <div class="img">
+                        <img src="./video 9 channel.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h5>1959 | Round2Hell | R2H</h5>
+                        <p class="chl">Round2hell</p>
+                        <p class="view">1M views 1 hour ago</p>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=yFm8MRGGZBs" class="video">
+                <img src="./video 10.webp" alt="">
+                <div class="dtl">
+                    <div class="img">
+                        <img src="./video 10 channel.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h5>Pardeep Narwal's 8 point raid</h5>
+                        <p class="chl">Patna Pirates</p>
+                        <p class="view">600K views 1 year ago</p>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=btpgJ25aETk" class="video">
+                <img src="./video 11.webp" alt="">
+                <div class="dtl">
+                    <div class="img">
+                        <img src="./video 11 channel.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h5>Why not print UNLIMITED money? | FREE MONEY FOR EVERYBODY</h5>
+                        <p class="chl">Abhi and Niyu</p>
+                        <p class="view">630K views 9 months ago</p>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=qGmP0VDATkc" class="video">
+                <img src="./video 12.webp" alt="">
+                <div class="dtl">
+                    <div class="img">
+                        <img src="./video 12 channel.jpg" alt="">
+                    </div>
+                    <div class="title">
+                        <h5>Copying my BROTHER All Day @Triggered Insaan</h5>
+                        <p class="chl">Wanderers Hub</p>
+                        <p class="view">5.4M views 2 months ago</p>
+                    </div>
+                </div>
+            </a>
+
+           </div>
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
